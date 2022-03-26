@@ -1,0 +1,105 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.headerUl {
+  display: flex;
+}
+.headerUl li {
+  list-style: none;
+  padding: 0 10px 0 10px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+.leftBlock {
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.translate button {
+  width: 30px;
+  height: 18px;
+  color: #0051ba;
+  border: none;
+  border-radius: 3px;
+  background: rgba(0, 81, 186, 0.11);
+  text-transform: uppercase;
+}
+
+.headerLine1,
+.headerLine2 {
+  width: 1px;
+  height: 26px;
+  background-color: #222;
+}
+
+.headerLeftBlock {
+  display: flex;
+  text-align: center;
+  padding: 0px 16px 0 16px;
+}
+.headerLeftBlock a {
+  padding: 0px 26px 0 26px;
+  margin: 10px 0px 0px 0px;
+  color: #222;
+  text-decoration: none;
+}
+
+.headerlongLine {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(236, 232, 232);
+}
+.headerSelector {
+  margin-top: 21px;
+  height: 91px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.selector input {
+  width: 899px;
+  height: 50px;
+  border: 1px solid #ffcb05;
+  border-radius: 3px;
+}
+.finds {
+  width: 140px;
+  height: 54px;
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 3px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* H1 text color */
+
+  color: #0a142f;
+}
+.btnFinds {
+  margin-left: 20px;
+  width: 155px;
+  height: 54px;
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 3px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* H1 text color */
+
+  color: #0a142f;
+}

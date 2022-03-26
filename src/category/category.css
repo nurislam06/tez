@@ -1,0 +1,67 @@
+.categotyItem {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.categotyItem button {
+  width: 210px;
+  height: 60px;
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 14px;
+  /* identical to box height, or 78% */
+
+  color: #ffffff;
+}
+.btns1 {
+  background-image: url(../category/category_img.img/Image.png);
+}
+
+.btns2 {
+  background-image: url(../category/category_img.img/image2.png);
+}
+.btns3 {
+  background-image: url(../category/category_img.img/image3.png);
+}
+.btns4 {
+  background-image: url(../category/category_img.img/Image4.png);
+}
+/* .btns4 {
+} */
+.btns5 {
+  background-image: url(../category/category_img.img/Image5.png);
+}
+
+.categotyItem .btns:not(:first-child) {
+  margin-left: 15px;
+}
+.categoryh2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 14px;
+  /* or 64% */
+
+  /* H1 text color */
+
+  color: #0a142f;
+}
+h3 {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #0051ba;
+}
