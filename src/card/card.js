@@ -11,9 +11,16 @@ import home3 from "../images/home3.png";
 import home4 from "../images/home4.png";
 import tr from "../images/tr1.png";
 import tr2 from "../images/tr2.png";
+import tr3 from "../images/tr3.png";
+import tr4 from "../images/tr4.png";
+import tr5 from "../images/tr5.png";
+import tr6 from "../images/tr6.png";
+import tr7 from "../images/tr7.png";
+import tr8 from "../images/tr8.png";
+import tr9 from "../images/tr9.png";
 
 const homeImg = [home, home2, home3, home4];
-const trImg = [tr, tr2, tr2, tr];
+const trImg = [tr, tr2, tr3, tr4, tr5, tr6, tr7, tr8, tr9];
 const elImg = [el, el3, el2, el];
 
 const templateHome = {
@@ -73,7 +80,7 @@ const Card = ({ data, category }) => {
   }
 
   function Items({ price, adress, des, category, img }) {
-    let indImg = Math.round(randomIndex(0, 3));
+    let indImg = Math.round(randomIndex(0, 8));
     return (
       <div className="item">
         <div className="cardImg">
@@ -132,6 +139,7 @@ const Card = ({ data, category }) => {
       ))}
     </div>
   );
+
   switch (category) {
     case "Электроника":
       return <div className="container">{electronn}</div>;

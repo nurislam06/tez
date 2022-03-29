@@ -1,0 +1,55 @@
+.headerSelector {
+  margin: 0 auto;
+  width: 1260px;
+  margin-top: 21px;
+  height: 91px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.selector input {
+  width: 899px;
+  height: 50px;
+  border: 1px solid #ffcb05;
+  border-radius: 3px;
+}
+.finds {
+  width: 140px;
+  height: 54px;
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 3px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* H1 text color */
+
+  color: #0a142f;
+}
+.btnFinds {
+  margin-left: 20px;
+  width: 155px;
+  height: 54px;
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 3px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* H1 text color */
+
+  color: #0a142f;
+}
+.headerSelectorBlock {
+  width: 1220px;
+  margin: 0 auto;
+}

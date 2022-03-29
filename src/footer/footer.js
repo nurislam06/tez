@@ -44,7 +44,6 @@ const Footer = () => {
           <img src={footImg2} />
         </div>
       </div>
-      <div className="footLine"></div>
       <div className="endFoot">
         <img src={logoFoot} />
         <p>© 2021 Все права защищены</p>
